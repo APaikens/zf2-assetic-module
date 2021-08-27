@@ -27,7 +27,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/assetic-php/assetic"
-        },
+        }
     ],
     "require": {
         "php": "^8.0",
