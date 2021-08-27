@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "assetic-php/assetic": "v2.0.1",
+        "assetic/framework": "v2.0.1",
         "widmogrod/php-functional": "^1.0",
         "laminas/laminas-mvc": "^3.0",
         "symfony/console": "^4"
