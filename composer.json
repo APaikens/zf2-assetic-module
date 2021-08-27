@@ -24,8 +24,8 @@
         "bin/assetic"
     ],
     "require": {
-        "php": "^7.3",
-        "kriswallsmith/assetic": "^1.2",
+        "php": "^8.0",
+        "assetic-php/assetic": "^2.0",
         "widmogrod/php-functional": "^1.0",
         "laminas/laminas-mvc": "^3.0",
         "symfony/console": "^4"
