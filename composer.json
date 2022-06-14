@@ -34,7 +34,7 @@
         "assetic/framework": "v2.0.1",
         "widmogrod/php-functional": "^1.0",
         "laminas/laminas-mvc": "^3.0",
-        "symfony/console": "^4"
+        "symfony/console": "^6"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.4",
