@@ -15,7 +15,7 @@ class ServiceFactory implements FactoryInterface
      *
      * @return \AsseticBundle\Service
      */
-    public function __invoke(ContainerInterface $locator, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $locator, $requestedName, ?array $options = null)
     {
         $asseticConfig = $locator->get('AsseticConfiguration');
         if ($asseticConfig->detectBaseUrl()) {

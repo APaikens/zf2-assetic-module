@@ -42,7 +42,7 @@ class Asset extends Container\AbstractStandalone
      *
      * @throws \AsseticBundle\Exception\InvalidArgumentException
      */
-    public function __invoke($collectionName, array $options = [])
+    public function __invoke($collectionName, ?array $options = [])
     {
         if (!$this->service->getAssetManager()->has($collectionName)) {
             throw new Exception\InvalidArgumentException(
