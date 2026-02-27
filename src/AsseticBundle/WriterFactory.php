@@ -16,7 +16,7 @@ class WriterFactory implements FactoryInterface
      *
      * @return \AsseticBundle\FilterManager
      */
-    public function __invoke(ContainerInterface $locator, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $locator, $requestedName, ?array $options = null)
     {
         $asseticConfig = $locator->get('AsseticConfiguration');
         $asseticWriter = new AssetWriter($asseticConfig->getWebPath());

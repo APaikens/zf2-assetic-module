@@ -15,7 +15,7 @@ class FilterManagerFactory implements FactoryInterface
      *
      * @return \AsseticBundle\FilterManager
      */
-    public function __invoke(ContainerInterface $locator, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $locator, $requestedName, ?array $options = null)
     {
         $filterManager = new FilterManager($locator);
 
