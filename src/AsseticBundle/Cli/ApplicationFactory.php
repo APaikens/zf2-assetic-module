@@ -16,7 +16,7 @@ class ApplicationFactory implements FactoryInterface
      *
      * @return Application
      */
-    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
+    public function __invoke(ContainerInterface $container, $requestedName, ?array $options = null)
     {
         $cliApplication = new Application('AsseticBundle', '1.7.0');
 
